@@ -1,4 +1,4 @@
 infra
 =====
 
-Code to manage the project's infrastructure
+Code to manage the project infrastructure
