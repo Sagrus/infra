@@ -1,0 +1,1 @@
+You must use an SSH client to access this instance, authenticating with your SSH key as the user 'admin'; you may then use 'sudo -i' to gain root (administrator) privileges.
