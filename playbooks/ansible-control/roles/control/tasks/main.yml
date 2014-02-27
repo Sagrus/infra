@@ -1,0 +1,10 @@
+---
+
+- name: Ensure that /etc/apt/sources.list.d exists
+  file: path=/etc/apt/sources.list.d owner=root group=root state=directory
+  sudo: true
+
+- name: Add company repository
+  copy: src=company.list.j2 dest=/etc/apt/sources.list.d/company.list
+  sudo: true
+  notify: update apt cache

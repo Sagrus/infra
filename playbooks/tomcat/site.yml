@@ -1,0 +1,10 @@
+---
+
+- hosts: local
+  vars:
+      epic: true
+  tasks:
+      - shell: echo "This is epic!"
+        when: epic
+  roles:
+      - tomcat
